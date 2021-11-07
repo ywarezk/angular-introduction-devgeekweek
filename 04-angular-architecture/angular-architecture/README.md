@@ -40,4 +40,8 @@ take something from template and add common behaviour.
 > npx ng g directive GoogleAnayltics
 ```
 
+## H.W
+
+[angular architecture](https://angular.io/guide/architecture)
+
 

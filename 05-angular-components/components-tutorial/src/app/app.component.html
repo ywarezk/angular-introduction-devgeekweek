@@ -1,0 +1,41 @@
+
+<h1>
+  Hello world with counter
+</h1>
+
+<app-hello></app-hello>
+
+<app-hello></app-hello>
+
+<app-hello></app-hello>
+
+<nz-input-neomi [message]="title">
+</nz-input-neomi>
+
+<app-output (onClickAssaf)="reactToChildEvent()"></app-output>
+
+<h1>
+  Change the data of the parent from the child
+</h1>
+
+<app-data [someArray]="dogsArray">
+</app-data>
+
+<h2>
+  array contains
+</h2>
+
+<p>
+  {{ dogsArray | json }}
+</p>
+
+<h2>
+  Conditions in our components
+</h2>
+
+<app-if></app-if>
+
+
+<h2>Sending request to a server</h2>
+
+<app-todo></app-todo>
